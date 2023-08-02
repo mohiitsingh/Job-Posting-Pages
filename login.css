@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-options{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.476);
+}
+
+.login-option {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-option.active {
+    /* background-color: rgba(255, 166, 0, 0.714); */
+    background-color: black;
+    color: white;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form input:focus{
+    outline: 1px solid orange;
+    border: none;
+}
+
+.login-form button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.login-form button:hover{
+    scale: 1.02; 
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.forgot-password a{
+    color: blue;
+}
+
+.second-div{
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.second-div p{
+    color: #6f6e6e;
+}
+
+.second-div .para{
+    margin-top: 10px;
+}
+
+.para a{
+    color: orangered;
+}
